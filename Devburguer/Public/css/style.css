@@ -1,0 +1,73 @@
+/* Estilos gerais do corpo da página e fontes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Estilização dos links no cabeçalho */
+header a, nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos para a área de conteúdo principal */
+main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos para seções dentro do main (como a seção de sugestão) */
+section {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+/* Estilos para o formulário */
+form label {
+    display: block; /* Garante que o label fique acima do input */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilização do botão de envio */
+button[type="submit"] {
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button[type="submit"]:hover {
+    background-color: #27ae60;
+}
