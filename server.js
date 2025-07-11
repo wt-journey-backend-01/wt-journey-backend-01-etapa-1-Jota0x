@@ -18,6 +18,7 @@ app.get('/contato', (req, res) => {
 });
 
 app.get('/api/lanches', (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
     res.sendFile(path.join(__dirname, 'public', 'data', 'lanches.json'));
 });
 
