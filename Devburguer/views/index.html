@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev burguer</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!--- Cabeçalho -->
+    <header>
+
+        <h1> Bem-vindo à DevBurguer!</h1>
+        <nav>
+            <a href="/contato">Contato</a>
+            <a href="/api/lanches">Ver API</a>
+        </nav>
+    </header>
+    <!--- Fim cabeçalho-->
+
+    <!--- Main -->
+    <main>
+        <h2>Cardápio</h2>
+        <p>Aproveite nossos Lanches!</p>
+
+        <section>
+            <h2>Caso tenha uma sugestão de novo lanche nos envie um contato!</h2>
+            <form action="/sugestao" method="get">
+
+                <label for="nome-sugestao">Nome do lanche: </label>
+                <input type="text" id="nome-sugestao" name="nome" required>
+
+                <label for="ingredientes-sugestao">Ingredientes: </label>
+                <input type="text" id="ingredientes-sugestao" name="ingredientes" rows="4" required>
+
+                <button type="submit">Enviar sugestão</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
